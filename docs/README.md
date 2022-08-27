@@ -14,4 +14,5 @@ docker run -it -v (pwd):/documents/ asciidoctor/docker-asciidoctor "./build.sh" 
 docker run -it -v $(pwd):/documents/ asciidoctor/docker-asciidoctor "./build.sh" "html"
 ```
     
-    
+Note: 
+*This will create an `output` folder with the documentation in html format inside*
